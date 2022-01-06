@@ -9,6 +9,9 @@
 .align-right{
     text-align: right;
 }
+.align-center{
+    text-align: center;
+}
 .link-button {
     background: #6837a2;
     padding: 12px 35px;
@@ -29,7 +32,7 @@
     margin-top: 77px;
 }
 .hero-section .main-title h1 {
-    font-size: 45px;
+    font-size: 55px;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
 }
@@ -51,3 +54,46 @@
     width: 95%;
 }
 /* ===== End Hero Section ===== */
+
+
+/* ===== Start Mission ===== */
+.mission-section {
+    padding: 0px 0px 80px;
+}
+
+.mission-section .mission-title h1 {
+    font-size: 45px;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+}
+.mission-section .mission-title h1 span{
+    color: #03b0b6;
+}
+.mission-section .missions{
+    display: flex;
+}
+.missions .third-width {
+    width: 33.33%;
+    margin: 15px;
+    background: #6837a217;
+    padding: 45px 25px;
+    border-radius: 20px;
+}
+.first-third-width{
+    background: #20d0ac59!important;
+}
+.missions .third-width img{
+    width: 35%;
+}
+.missions .third-width h2 {
+    margin: 10px 0px;
+    font-family: 'Roboto';
+    font-size: 19px;
+}
+.missions .third-width p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 500;
+    color: #6b6b6b;
+}
+/* ===== End Mission ===== */
